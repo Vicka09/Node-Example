@@ -1,11 +1,8 @@
 import { Router } from 'express'
 
 import {
-  getPersons,
-  getPerson,
-  createPerson,
-  updatePerson,
-  deletePerson,
+  getPersons, getPerson, createPerson,
+  updatePerson, deletePerson,
 } from '../../models/persons'
 
 const router = Router()
