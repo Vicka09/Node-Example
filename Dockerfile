@@ -1,5 +1,5 @@
 FROM node:19
-WORKDIR /usr/src/app
+WORKDIR /usr/src/node_modules
 
 COPY package*.json ./
 
